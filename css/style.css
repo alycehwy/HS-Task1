@@ -1,0 +1,119 @@
+/* ↓↓↓ css rest ↓↓↓ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ↑↑↑ css rest ↑↑↑ */
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5% 5%;
+}
+
+.tableList_List{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+    margin-bottom: 40px;
+}
+
+.tableList_List li{
+    width: 32.5%;
+}
+
+.tableList_List li > img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.tableList_List li > div{
+    padding: 20px 32px;
+    border: 1px solid #F2F2F2;
+    border-top: none;
+}
+
+.tableList_List_context1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    height: 118px;
+}
+
+.tableList_List_context1 h3{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.tableList_List_context1 p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tableList_List_context2, .tableList_List_context3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableList_List_context3{
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.tableList_List_context3 img{
+    width: 24px;
+    height: 24px;
+}
+
+.AI_bold{
+    font-weight: 700;
+}
